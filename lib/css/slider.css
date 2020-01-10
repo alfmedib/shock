@@ -1,0 +1,126 @@
+#imgTorniquete{
+    box-sizing: border-box;
+    
+}
+
+#imgTorniquete ul{
+    list-style-type: none;
+   
+}
+
+.slider-container{
+    margin: 0 auto;
+    width: 900px;
+    
+    
+}
+
+.slider-wraper{
+
+    position: relative;
+    height: 500px;
+    width: 100%;
+    border: 1px solid;
+    overflow: hidden;
+    z-index: 90;
+
+}
+
+.slider-wraper li{
+    display: none;
+    
+}
+
+li.slide-current{
+  
+display: block;
+
+}
+
+.slider-wraper li img{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    
+    max-width: 100%;
+    border: none;   
+    
+}
+
+.caption{
+   
+   position: absolute;
+   bottom: 0px;
+   left: 0px;
+   width: 100%;
+    background: rgba(0, 0, 0, .3);
+    padding: 12px;
+}
+
+.caption-title{
+    font-size: 26px !important;
+    font-weight: 700 !important;
+}
+
+.caption p{
+    font-size: 26px;
+    color: var(--body-bg) !important;
+    margin: 0;
+}
+
+/* .shadow{
+    width: 100%;
+    height: 15px;
+    position: relative;
+}
+
+.shadow::before, .shadow::after{
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: var(--text-color);
+    position: absolute;
+    left: 100px;
+    top: -20px;
+    transform: rotate(-4deg);
+    box-shadow: 0 0 15px 8px var(--text-color);
+}
+
+.shadow::after{
+    left: auto;
+    right: 10px;
+    transform: rotate(4deg);
+} */
+
+/* Cotroles de slider */
+
+.slider-controls{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.slider-controls li{
+    background: var(--body-bg);
+    border-radius: 50%;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+.slider-controls li.active{
+    background: var(--resaltadoTabla) !important;
+}
+
+/* para empaquetamiento */
+
+#empaquetamiento{
+    box-sizing: border-box;
+    
+}
+
+#empaquetamiento ul{
+    list-style-type: none;
+   
+}

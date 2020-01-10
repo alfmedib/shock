@@ -1,0 +1,184 @@
+.isquemia{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    /* column-gap: 1px;
+    row-gap: 1px; */
+    grid-gap: 1px;
+}
+
+.box1{
+    grid-column: 1/3;
+}
+
+.boxFin{
+    grid-column: 1/3;
+}
+
+
+.gridcss{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: minmax(100px, auto);
+    gap: 2px;
+}
+
+/* Galeria de vasos sanguineos */
+
+#cotenedor_vasos{
+
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+    grid-template-rows: 50px 350px 150px;
+    gap: 10px;
+}
+
+
+.vasos_sang:nth-child(1){
+    grid-column: 1/3;
+}
+
+.vasos_sang:nth-child(2){
+    grid-row: 2/3;
+    grid-column: 1/2;
+   
+}
+
+.vasos_sang:nth-child(3){
+   
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.vasos_sang:nth-child(4){
+   
+   grid-column: 1/3;
+}
+
+
+/* graficas de hipovolemia */
+
+.imgHipovolemia{
+    display: grid;
+    height: 100%;
+    width: 100%;
+
+    /* Especificar posición de las áreas */
+
+    grid-template-areas: 
+        "derecha izquierda"
+        "inferior inferior"
+    ;
+}
+
+/* nombres de area */
+.imgHipovolemia img:nth-child(1){
+    grid-area: izquierda;
+}
+.imgHipovolemia img:nth-child(2){
+    grid-area: derecha;
+}
+
+.imgHipovolemia p{
+    grid-area: inferior;
+}
+
+/* Especificar posiciones de cuadro de clasificacion de hipovolemia */
+
+table{
+    border-collapse: collapse;
+    width: 100%!important;
+    
+}
+
+table, th, td{
+    border: 1px solid #ffffff;
+    
+}
+
+th, td{
+   width: 18% !important;
+}
+
+table td:nth-child(1){
+    width: 28% !important;
+}
+
+table thead{
+    background: var(--resaltadoTabla);
+}
+
+table th:nth-child(1){
+    width: 28% !important;
+}
+
+tbody tr:nth-child(even){
+    background: var(--negro);
+}
+
+tbody tr:hover{
+
+    background: var(--encabezado);
+
+}
+
+.parrafo caption{
+    background: var(--encabezadoTabla);
+    text-align: center;
+}
+
+.parrafo td{
+    font-size: 0.7em !important;
+}
+
+#gridPrimaria{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 10px;
+    
+}
+
+#gridPrimaria h4{
+    background: var(--resaltadoTabla);
+    padding: 0px 10px 0px 10px;
+}
+
+#gridPrimaria .itemPrimaria, .itemPrimaria .btn{
+    background: var(--cuerpoTabla);
+    color: var(--sombra)!important;
+}
+
+.itemPrimaria .parrafo{
+    padding: 10px;
+    font-size: 0.5em !important;
+}
+
+.letra{
+    color: var(--resaltadoTabla);
+    font-size: 1.5em;
+}
+
+#cuadroSignosHiptension{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 2fr 1fr;
+}
+
+.itemCuadroHipot {
+    font-size: 0.7em !important;
+    margin: 0 0;
+
+}
+
+.itemCuadroHipot:nth-child(3),.itemCuadroHipot:nth-child(4){
+    background: var(--encabezado) ;
+    /* color: var(--sombra); */
+    padding: 10px;
+}
+
+
+

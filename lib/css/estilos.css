@@ -1,0 +1,838 @@
+:root{
+    --resaltado: #04B4AE;
+    --negro:#000;
+    --blanco:#fff;
+    --resaltadoTabla:#8B0000;
+    --encabezadoTabla: #2F4F4F;
+    --encabezado:#006400;
+    --text-color: #53575a;
+    --cuerpoTabla:#8FBC8F;
+    --body-bg:#FAFDFF;
+    --dark-color-alt:#141618;
+    --dark-color:#282D31;
+    --sombra:rgba(0, 0, 0, .65);
+    --thir-color-rgba:rgba(47,79,79,.4);
+    --text-parrafo: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.titulo{
+    font-size: 3em;
+    text-transform: none !important;
+}
+
+.subtitulo{
+    
+    font-size: 2em;
+    text-transform: none !important;
+    text-align: left;
+    
+}
+
+.suprarayado{
+    border-top: 1px solid var(--resaltado);
+}
+
+.container{
+    width: 100%;
+    font-size: 0.4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.imgLogo{
+    width: 125px;
+    height: 50px;
+    margin-right: 20px;
+    /* object-fit: cover; */
+}
+
+.reveal p{
+    text-align: justify;
+    /* font-size: 36px; */
+}
+
+.textoPintado, .resaltar{
+    color: var(--resaltado);
+}
+
+.textoIzq{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.8em;
+}
+
+.isquemia{
+    height: 100px;
+}
+
+.box{
+    background: var(--cuerpoTabla);
+    padding: 10px;
+    color: var(--dark-color);
+    text-align: center;
+}
+
+.box1{
+   background: var(--encabezadoTabla);
+   color:var(--body-bg);
+}
+.box2{
+    background:var(--resaltadoTabla);
+    color:var(--body-bg);
+}
+
+.boxFin{
+    background: #002b36;
+    color:var(--body-bg);
+}
+
+.resaltar{
+
+    font-size: 1em !important;
+    text-align: left;
+    width: 100%;
+    box-shadow: 0px 0px 0px  var(--sombra) inset;
+    transition: 0.5s !important;
+
+}
+
+.resaltar:hover{
+    font-size: 1.1em !important;
+    box-shadow: 1500px 0px 0px var(--thir-color-rgba) inset;
+}
+
+
+.btn{
+    text-decoration: none;
+    line-clamp: 4;
+    padding: 4px;
+    color: #6a6a6a !important;
+    position: relative;
+    color: var(--resaltado) !important;
+    box-shadow: 0px 0px 0px var(--thir-color-rgba) inset;
+    transition: 0.5s !important;
+    cursor: pointer;
+}
+
+.btn:before{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 3px;
+    background:var(--resaltado) !important;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition:  0.5s !important;
+    
+}
+
+.btn:hover{
+    box-shadow: 1500px 0px 0px var(--thir-color-rgba) inset; 
+}
+
+.btn:hover:before{
+    width: 100%;
+}
+
+.fickBtn{
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.parrafo{
+   
+    font-size: .8em !important;
+    text-align: left;
+    width: 100%;
+    box-shadow: 0px 0px 0px var(--thir-color-rgba) inset;
+    transition: 0.5s !important;
+}
+
+.lateral{
+    width: 100%;
+    height: 100%;
+}
+
+.imglateral{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ACORDEONES */
+
+.acordeon_cardio input{
+    display: none;
+}
+
+.acordeon_cardio{
+    margin: 0;
+    padding: 0;
+}
+
+.cardio_titulo{
+    display: block;
+    margin: 0;
+    padding: 0;
+    color: var(--resaltado);
+    font-size: .7em;
+    text-align: left;
+    cursor: pointer;
+    
+    /* border-bottom: 1px solid #fff;  */
+    
+    
+}
+
+.cardio_contenido{
+    background: var(--thir-color-rgba);
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+    transition: 0.5s !important;
+    padding: 0 10px 0 10px;
+}
+
+.cardio_contenido1{
+    background:var(--cuerpoTabla);
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+    transition: 0.5s !important;
+    padding: 0 10px 0 10px;
+    color: var(--sombra);
+
+    position: absolute; 
+    top: 10px; 
+    left: 50%; 
+    width: 70%;
+    border-radius: 5px;
+    z-index:10;
+}
+
+.cardio_contenido ul{
+    padding: 0 10px 0 10px;
+}
+
+.acordeon_cardio input:checked ~ .cardio_contenido{
+    height: auto;
+
+}
+
+.acordeon_cardio input:checked ~ .cardio_contenido1{
+    height: auto;
+
+}
+
+.cardio_contenido img {
+   
+   height: 250px;
+   width: 250px;
+}
+
+.cardio_contenido .imgHemo{
+
+    height: 250px;
+    width: 500px;
+
+}
+
+#agua{
+    display: flex;
+}
+#agua div .subfoto{
+    padding: 0 !important;
+    margin: 0;
+    font-size: 0.5em !important;
+}
+
+/* Algoritmo de triage NTTP  ==============================================================================================*/
+
+.principalNttp{
+    font-size: 9px;
+    color: #ffffff;
+    display: grid;
+    
+    grid-template-columns: 0.5fr 5fr repeat(3, 0.5fr) 2fr;
+    grid-template-rows: repeat(2, 0.5fr) 3fr repeat(5, 0.5fr) 3fr repeat(5, 0.5fr) 3fr repeat(5, 0.5fr) 3fr repeat(4, 0.5fr) ;
+    transition: 0.5s !important;
+    
+}
+
+.itemNttp{
+    border-radius: 5px;
+}
+
+.itemNttp:nth-child(2){
+    background: var(--resaltadoTabla);
+    cursor: pointer;
+}
+
+.itemNttp:nth-child(13),
+.itemNttp:nth-child(49),
+.itemNttp:nth-child(85),
+.itemNttp:nth-child(121){
+
+    cursor: pointer;
+
+}
+
+.itemNttp:nth-child(2):hover{
+    
+    background: var(--thir-color-rgba) ;
+    font-size: 16px;
+}
+
+
+.itemNttp:nth-child(14):hover,
+.itemNttp:nth-child(50):hover,
+.itemNttp:nth-child(86):hover,
+.itemNttp:nth-child(122):hover{
+    background: var(--thir-color-rgba) ;
+}
+
+.itemNttp:nth-child(16):hover span,
+.itemNttp:nth-child(26):hover span,
+.itemNttp:nth-child(52):hover span,
+.itemNttp:nth-child(62):hover span,
+.itemNttp:nth-child(88):hover span,
+.itemNttp:nth-child(98):hover span,
+.itemNttp:nth-child(124):hover span,
+.itemNttp:nth-child(134):hover span
+{
+    width: 50px;
+    height: 50px;
+    font-size: 28px;
+    padding: 6px;
+}
+
+
+.itemNttp:nth-child(16) span,
+.itemNttp:nth-child(26) span,
+.itemNttp:nth-child(52) span,
+.itemNttp:nth-child(62) span,
+.itemNttp:nth-child(88) span,
+.itemNttp:nth-child(98) span,
+.itemNttp:nth-child(124) span,
+.itemNttp:nth-child(134) span{
+    background: var(--cuerpoTabla);
+    font-size: 16px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: var(--negro);
+    transition: 0.5s;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.itemNttp:nth-child(18),
+.itemNttp:nth-child(54),
+.itemNttp:nth-child(90),
+.itemNttp:nth-child(126){
+    background: var(--body-bg);
+    color: var(--negro);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.itemNttp:nth-child(26) span,
+.itemNttp:nth-child(62) span, 
+.itemNttp:nth-child(98) span,
+.itemNttp:nth-child(134) span{
+    background: var(--cuerpoTabla);
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    border-radius: 50%;
+    color: var(--negro);
+    cursor: pointer;
+}
+
+.itemNttp:nth-child(38),
+.itemNttp:nth-child(74),
+.itemNttp:nth-child(110),
+.itemNttp:nth-child(146){
+
+    background: var(--cuerpoTabla);
+    font-size: 12px;
+    color: var(--negro);
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.itemNttp:nth-child(14),
+.itemNttp:nth-child(50),
+.itemNttp:nth-child(86),
+.itemNttp:nth-child(122){
+    background: var(--encabezadoTabla);
+    font-size: 6px;
+    transition: 2s;
+    cursor: pointer;
+}
+
+
+
+.principalNttp > *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+/* fila 1  INICIO DEL ALGORIMO*/
+
+.principalNttpInicio{
+    position: relative;
+    font-size: 9px;
+    color: #ffffff;
+    display: grid;
+    top: 150px !important;
+    grid-template-columns: 0.5fr 5fr repeat(3, 0.5fr) 2fr;
+    grid-template-rows: 5fr 2fr 3fr repeat(5, 0.5fr) 3fr repeat(5, 0.5fr) 3fr repeat(5, 0.5fr) 3fr repeat(4, 0.5fr) ;
+    transition: 0.5s !important;
+    
+   
+}
+
+.itemNttpInicio_2{
+    background: var(--resaltadoTabla);
+    font-size: 36px;
+}
+
+
+.itemNttpInicio_8{
+    
+    font-size: 36px;
+}
+
+
+
+/* ____________________________________________ */
+
+/* SIGNOS VITALES Y NIVEL DE CONCIENCIA */
+
+.principalNttpSignos{
+    font-size: 9px;
+    color: #ffffff;
+    display: grid;
+    width: 120%;
+    grid-template-columns: 1fr 10fr repeat(3, 1fr) 2fr;
+    grid-template-rows: repeat(2, 0.5fr) 3fr repeat(5, 0.9fr) 3fr repeat(5, 0.5fr) 3fr repeat(5, 0.5fr) 3fr repeat(4, 0.5fr) ;
+    
+} 
+
+.itemNttpSignos_14
+{
+    background: var(--encabezadoTabla);
+    font-size: 36px !important;
+}
+
+
+.itemNttpSignos_13{
+   
+    font-size: 36px;
+}
+
+.itemNttpSignos_15 span,
+.itemNttpSignos_16 span,
+.itemNttpSignos_17 span,
+.itemNttpSignos_20 span,
+.itemNttpSignos_26 span,
+.itemNttpSignos_32 span
+{
+    font-size: 32px !important;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50% !important;
+    
+}
+
+/* === fin de Signos vitales y nivel de conciencia */
+
+/* RESPUESTA A SIGNOS Y NIVEL CONCIENCIA */
+
+.principalNttpRespuestaSignos54{
+    font-size: 9px;
+    color: #ffffff;
+    display: grid;
+    
+    grid-template-columns: 0.5fr 5fr repeat(3, 0.5fr) 15fr;
+    grid-template-rows: repeat(2, 0.5fr) 3fr repeat(5, 0.5fr) 3fr repeat(5, 0.5fr) 3fr repeat(5, 0.5fr) 3fr repeat(4, 0.5fr) ;
+    
+}
+
+.itemNttpRespuestaSignos18,
+.itemNttpRespuestaSignos54{
+font-size: 36px;
+}
+
+/*  FIN RESPUESTA A SIGNOS */
+
+/*  VA A NO Y LLEGA LESION */
+
+.principalNttpInicioLesion{
+    font-size: 9px;
+    color: #ffffff;
+    display: grid;
+    
+    grid-template-columns: 0.5fr 5fr repeat(3, 0.5fr) 2fr;
+    grid-template-rows: repeat(2, 0.5fr) 3fr repeat(3, 0.7fr) 3fr 2fr 3fr repeat(5, 0.5fr) 3fr repeat(5, 0.5fr) 3fr repeat(4, 0.5fr) ;
+    
+}
+
+.itemNttpInicioLesion_38,
+.itemNttpInicioLesion_44{
+    font-size: 36px !important;
+}
+
+/*  FIN VA A NO Y LLEGA LESION */
+
+/* LESION */
+
+.principalNttpLesion{
+    position: relative;
+    font-size: 9px;
+    color: #ffffff;
+    display: grid;
+    width: 170%;
+    top: -215px;
+    left: -50px;
+    grid-template-columns: 0.5fr 5fr repeat(3, 0.5fr) 2fr;
+    grid-template-rows: repeat(2, 0.5fr) 1fr repeat(5, 0.5fr) 10fr repeat(5, 0.5fr) 3fr repeat(5, 0.5fr) 3fr repeat(4, 0.5fr) ;
+    
+}
+
+.itemNttpLesion_49,
+.itemNttpLesion_51,
+.itemNttpLesion_56
+{
+    font-size: 36px !important;
+    background: none !important;
+    color: var(--body-bg) !important;
+
+}
+
+.itemNttpLesion_50{
+    font-size: 36px !important;
+}
+
+/* FIN DE LA LESION */
+
+/* IR A MECANISMO DE LESION*/
+
+.principalNttpInicioMecanismo{
+    position: relative;
+    font-size: 9px;
+    color: #ffffff;
+    top: -250px;
+    display: grid;
+    
+    grid-template-columns: 0.5fr 5fr repeat(3, 0.5fr) 2fr;
+    grid-template-rows: repeat(2, 0.5fr) 3fr repeat(5, 0.5fr) 3fr repeat(3, 0.5fr) 3fr 2fr 3fr repeat(5, 0.5fr) 3fr repeat(4, 0.5fr) ;
+    
+}
+
+.itemNttpInicioMecanismo_74,
+.itemNttpInicioMecanismo_80{
+    font-size: 32px !important;
+}
+
+/* 
+    FIN A IR MECANISMO DE LESIÓN
+*/
+
+/*  MECANISMO DE LESION */
+
+.principalNttpMecanismoLesion{
+    position: relative;
+    width: 180%;
+    left: -180px;
+    font-size: 9px;
+    color: #ffffff;
+    display: grid;
+    top: -450px;
+    
+    grid-template-columns: 0.5fr 5fr repeat(3, 0.5fr) 2fr;
+    grid-template-rows: repeat(2, 0.5fr) 1fr repeat(5, 0.5fr) 1fr repeat(5, 0.5fr) 7fr repeat(5, 0.5fr) 1fr repeat(4, 0.5fr) ;
+    
+} 
+
+.itemNttpMecanismoLesion_85,
+.itemNttpMecanismoLesion_86,
+.itemNttpMecanismoLesion_87,
+.itemNttpMecanismoLesion_92{
+    font-size: 32px !important;
+}
+
+/* FIN MECANISMO DE LESION */
+
+/* RESPUESTA MECANISMO DE LESIÓN */
+
+.principalNttpRespuestaMecanismo{
+
+    position: relative;
+    width: 120%;
+    font-size: 9px;
+    top: -350px;
+    left:-200px;
+    color: #ffffff;
+    display: grid;
+    
+    grid-template-columns: 0.5fr 2fr repeat(3, 0.5fr) 5fr;
+    grid-template-rows: repeat(2, 0.5fr) 2fr repeat(5, 0.5fr) 2fr  repeat(5, 0.5fr)  5fr  repeat(5, 0.5fr) 2fr repeat(4, 0.5fr) ;
+    
+} 
+
+.itemNttpRespuestaMecanismo_90{
+    font-size: 32px !important;
+}
+
+/* FIN RESPUESTA MECANISMO DE LESION */
+
+/*   IR A PACIENE ESPECIAL*/
+
+.principalNttpEspecialI{
+    position: relative;
+    font-size: 9px;
+    top: -300px;
+    color: #ffffff;
+    display: grid;
+    
+    grid-template-columns: 0.5fr 5fr repeat(3, 0.5fr) 2fr;
+    grid-template-rows: repeat(2, 0.5fr) 2fr repeat(5, 0.5fr) 2fr repeat(5, 0.5fr) 2fr repeat(3, 0.5fr) 3fr 2fr 2fr repeat(4, 0.5fr) ;
+    
+}
+
+.itemNttpEspecialI_110,
+.itemNttpEspecialI_116{
+    font-size: 36px !important;
+}
+
+/*  FIN DE  IR PACIENTE ESPECIAL*/
+
+/* PACIENTE ESPECIAL */
+.principalNttpEspecial{
+    position: relative;
+    width: 200%;
+    top: -820px;
+    left: -280px;
+    font-size: 9px;
+    color: #ffffff;
+    display: grid;
+    
+    grid-template-columns: 1fr 5fr repeat(3, 0.3fr) 2fr;
+    grid-template-rows: repeat(2, 0.5fr) 2fr repeat(5, 0.5fr) 2fr repeat(5, 0.5fr) 2fr repeat(5, 0.5fr) 7fr repeat(4, 0.5fr) ;
+    
+} 
+
+.itemNttpEspecial_121
+{
+    font-size: 30px !important;
+}
+
+.itemNttpEspecial_122{
+    font-size: 28px !important;
+}
+
+.itemNttpEspecial_128,
+.itemNttpEspecial_125,
+.itemNttpEspecial_123{
+    font-size: 28px !important;
+}
+/*  FIN PACIENTE ESPECIAL */
+
+/* RESPUESTA PACIENTE ESPECIAL */
+
+.principalNttpRespuestaEspecial{
+    position: relative;
+    font-size: 9px;
+    top: -700px;
+    left: -150px;
+    color: #ffffff;
+    display: grid;
+    
+    grid-template-columns: 0.5fr 2fr repeat(3, 0.5fr) 6fr;
+    grid-template-rows: repeat(2, 0.5fr) 2fr repeat(5, 0.5fr) 2fr repeat(5, 0.5fr) 3fr repeat(5, 0.5fr) 5fr repeat(4, 0.5fr) ;
+    
+} 
+
+.itemNttpRespuestaEspecial_126{
+    font-size: 36px !important;
+}
+
+/* FIN RESPUESTA PACIENTE ESPECIAL */
+
+/*  PACIENTE PROTOCOLO */
+
+.principalNttpProtocolo{
+    position: relative;
+    top:-900px;
+    font-size: 9px;
+    color: #ffffff;
+    display: grid;
+    
+    grid-template-columns: 0.5fr 5fr repeat(3, 0.5fr) 2fr;
+    grid-template-rows: repeat(2, 0.5fr) 1fr repeat(5, 0.5fr) 1fr repeat(5, 0.5fr) 2fr repeat(5, 0.5fr) 1fr  repeat(3, 0.5fr) 5fr;
+    
+} 
+
+.itemNttpProtocolo_128,
+.itemNttpProtocolo_140,
+.itemNttpProtocolo_146{
+
+    font-size: 36px !important;
+
+}
+
+/*  FIN RPROTOCOLO */
+
+
+/*  INICIO PROTOCOLO DE MANEJO DE HEMORRAGÍA */
+.principalHemo > *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.principalHemo{
+    font-size: 12px;
+    color: #ffffff;
+    display: grid;
+    
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(17,1fr);
+
+    
+    
+}
+
+.itemHemo:nth-child(2),
+.itemHemo:nth-child(16),
+.itemHemo:nth-child(31),
+.itemHemo:nth-child(76){
+    grid-column: 2 / 5;
+}
+
+.itemHemo:nth-child(2) span,
+.itemHemo:nth-child(16) span,
+.itemHemo:nth-child(31) span,
+.itemHemo:nth-child(62) span,
+.itemHemo:nth-child(90) span,
+.itemHemo:nth-child(92) span,
+.itemHemo:nth-child(106) span,
+.itemHemo:nth-child(108) span,
+.itemHemo:nth-child(33) span,
+.itemHemo:nth-child(62) span,
+itemHemo:nth-child(68) span{
+   
+    background-color: var(--body-bg);
+    color: var(--dark-color);
+    width: 100%;
+    font-size: 18px;
+    padding: 2px;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.itemHemo:nth-child(31) span,
+.itemHemo:nth-child(62) span{
+    background-color: var(--resaltadoTabla);
+    color: var(--body-bg);
+}
+
+.itemHemo:nth-child(33) span{
+
+    background-color: #FFBF00;
+
+}
+
+.itemHemo:nth-child(32) span,
+.itemHemo:nth-child(46) span{
+    background-color: var(--cuerpoTabla);
+    border-radius: 5px;
+}
+
+.itemHemo:nth-child(68) span{
+    font-size: 32px;
+}
+
+.itemHemo:nth-child(127) {
+    font-size: 24px !important;
+}
+
+
+
+
+
+.itemHemo:nth-child(62){
+    grid-column: 1 / 6;
+}
+
+.itemHemo:nth-child(108){
+    grid-column: span 1 / span 4;
+}
+
+.itemHemo:nth-child(108){
+    grid-column: span 1 / span 3;
+}
+
+.itemHemo:nth-child(68){
+    grid-row: span 3 / span 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+@keyframes rotar{
+    0%{
+        transform: rotate(0deg);
+
+    }
+    80%{
+
+        transform: rotateY(360deg);
+        height: 100%;
+        width: 100%;
+        font-size: 1.2em;
+    }    
+        
+   
+    100%{
+        transform: rotateY(360deg);
+        height: 100%;
+        width: 100%;
+        font-size: 1.2em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
