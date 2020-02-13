@@ -122,6 +122,16 @@ tbody tr:hover{
 
 }
 
+ol li:hover{
+    background: var(--encabezado);
+}
+ul li:hover{
+    background: var(--encabezado);
+
+}
+
+
+
 .parrafo caption{
     background: var(--encabezadoTabla);
     text-align: center;

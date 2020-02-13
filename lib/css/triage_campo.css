@@ -1,0 +1,576 @@
+
+
+.contenedotNttp{
+
+    position: relative;
+    width: 70%;
+    background-color: yellow;
+
+}
+
+.primerNivel p{
+  margin: 0;
+  padding: 0;
+}
+
+.medirSignos,
+.signosNttp,
+.paso1,
+.paso2,
+.paso3,
+.sinttp1,
+.nonttp1,
+.sinttp2,
+.nonttp3,
+.regionNttp,
+.regionesNttp,
+.primerNivel,
+.nonttp2,
+.mecanismoNttp,
+.mecanismosNttp,
+.segundoNivel,
+.especial,
+.especialesNttp,
+.nonttp4,
+.protocolo,
+.paso4,
+.sinttp3,
+.tercerNivel{
+    position: absolute;
+    font-size: 10px;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color:var(--resaltado);
+    text-align: center;
+    padding: 5px;
+    background-color: var(--thir-color-rgba);;
+    transition: all 2s;
+}
+
+.medirSignos:hover,
+.signosNttp:hover,
+.paso1:hover,
+.paso2:hover,
+.paso3:hover,
+.sinttp1:hover,
+.nonttp1:hover,
+.sinttp2:hover,
+.nonttp3:hover,
+.regionNttp:hover,
+.regionesNttp:hover,
+.primerNivel:hover,
+.nonttp2:hover,
+.mecanismoNttp:hover,
+.mecanismosNttp:hover,
+.segundoNivel:hover,
+.especial:hover,
+.especialesNttp:hover,
+.nonttp4:hover,
+.protocolo:hover,
+.paso4:hover,
+.sinttp3:hover,
+.tercerNivel:hover{
+    background-color: var(--this-color-rgbaSolido);
+    z-index: 10;
+}
+
+.medirSignos{
+    background-color: var(--resaltadoTabla);
+    left: 235px;
+    top:1px;
+    height: 20px;  
+  }
+  
+  .medirSignos:hover{
+    background-color: var(--resaltadoTabla);
+      transform: scale(5) translate(5%, 5%);    
+  }
+
+  .signosNttp{
+    left: 145px;
+    top:35px;
+    width: 375px;
+    height: 70px;  
+  }
+  
+  .signosNttp:hover{
+    width: 350px;
+    height: 85px;
+      transform: scale(3) translate(15%, 5%);    
+  }
+
+  .paso1{
+    left: 100px;
+    top:59px;
+    height: 20px;  
+  }
+  
+  .paso1:hover{
+      transform: scale(4) translate(10%, 5%);    
+  }
+
+  .sinttp1{
+    left: 523px;
+    top:132px;
+    height: 20px;  
+  }
+  
+  .sinttp1:hover{
+      transform: scale(4) translate(10%, 5%);    
+  }
+
+  .nonttp1{
+    left: 313px;
+    top:110px;
+    height: 20px;  
+  }
+  
+  .nonttp1:hover{
+      transform: scale(4) translate(10%, 5%);    
+  }
+
+  .regionNttp{
+    left: 238px;
+    top:145px;
+    height: 20px;  
+  }
+  
+  .regionNttp:hover{
+      transform: scale(3) translate(0%, 5%);    
+  }
+
+  .regionesNttp{
+    font-size: 6px;
+    left: 145px;
+    top:180px;
+    width: 375px;
+    height: 70px;  
+  }
+  
+  .regionesNttp:hover{
+      font-size: 12px;
+      width: 350px;
+      height: 165px;
+      transform: scale(3) translate(5%,-10%);    
+  }
+
+  .paso2{
+    left: 100px;
+    top:205px;
+    height: 20px;  
+  }
+
+  .paso2:hover{
+    transform: scale(4) translate(5%,5%); 
+
+  }
+
+  .primerNivel{
+    font-size: 10px;
+    left: 568px;
+    top:95px;
+    width: 250px;
+    height: 90px;
+    background-color: var(--body-bg);  
+    color: var(--dark-color-alt);
+  }
+  
+  .primerNivel:hover{
+      background-color: var(--body-bg);  
+      color: var(--dark-color-alt);
+      transform: scale(4) translate(-10%,-10%);    
+  }
+
+  .nonttp2{
+    left: 313px;
+    top:256px;
+    height: 20px;  
+  }
+  
+  .nonttp2:hover{
+      transform: scale(4) translate(10%, 5%);    
+  }
+
+  .mecanismoNttp{
+    left: 178px;
+    top:293px;
+    height: 20px;  
+  }
+  
+  .mecanismoNttp:hover{
+      transform: scale(3) translate(-5%, 5%);    
+  }
+
+  .mecanismosNttp{
+    font-size: 5px;
+    left: 145px;
+    top:330px;
+    width: 375px;
+    height: 70px;  
+  }
+  
+  .mecanismosNttp:hover{
+      font-size: 12px;
+      width: 400px;
+      height: 210px;
+      transform: scale(3) translate(15%,-30%);    
+  }
+
+  .paso3{
+    left: 100px;
+    top:352px;
+    height: 20px;  
+  }
+
+  .paso3:hover{
+    transform: scale(4) translate(5%,5%); 
+  }
+
+  .sinttp2{
+    left: 530px;
+    top:354px;
+    height: 20px;  
+  }
+  
+  .sinttp2:hover{
+      transform: scale(4) translate(10%, 5%);    
+  }
+
+  .nonttp3{
+    left: 313px;
+    top:405px;
+    height: 20px;  
+  }
+  
+  .nonttp3:hover{
+      transform: scale(4) translate(10%, 5%);    
+  }
+
+  .segundoNivel{
+    font-size: 10px;
+    left: 568px;
+    top:323px;
+    width: 250px;
+    height: 80px;
+    background-color: var(--body-bg);  
+    color: var(--dark-color-alt);
+  }
+  
+  .segundoNivel:hover{
+      background-color: var(--body-bg);  
+      color: var(--dark-color-alt);
+      transform: scale(4) translate(-10%,-10%);    
+  }
+
+  .especial{
+    left: 215px;
+    top:440px;
+    height: 20px;  
+  }
+  
+  .especial:hover{
+      transform: scale(3) translate(10%, 5%);    
+  }
+
+  .especialesNttp{
+    font-size: 4px;
+    left: 145px;
+    top:475px;
+    width: 375px;
+    height: 70px;  
+  }
+  
+  .especialesNttp:hover{
+      font-size: 10px;
+      width: 400px;
+      height: 210px;
+      transform: scale(3) translate(15%,-55%);    
+  }
+
+  .nonttp4{
+    left: 313px;
+    top:550px;
+    height: 20px;  
+  }
+  
+  .nonttp4:hover{
+      transform: scale(4) translate(10%, 5%);    
+  }
+
+  .protocolo{
+    left: 242px;
+    top:584px;
+    height: 20px;  
+  }
+  
+  .protocolo:hover{
+      transform: scale(4) translate(10%, -20%);    
+  }
+
+  .paso4{
+    left: 100px;
+    top:500px;
+    height: 20px;  
+  }
+
+  .paso4:hover{
+    transform: scale(4) translate(5%,5%); 
+
+  }
+
+  .sinttp3{
+    left: 530px;
+    top:501px;
+    height: 20px;  
+  }
+  
+  .sinttp3:hover{
+      transform: scale(4) translate(10%, 5%);    
+  }
+
+  .tercerNivel{
+    font-size: 10px;
+    left: 568px;
+    top:475px;
+    width: 250px;
+    height: 80px;
+    background-color: var(--body-bg);  
+    color: var(--dark-color-alt);
+  }
+  
+  .tercerNivel:hover{
+      background-color: var(--body-bg);  
+      color: var(--dark-color-alt);
+      transform: scale(4) translate(-10%,-20%);    
+  }
+
+
+  /*  FLECHCAS DESCENDENTES */
+
+  .flechanttp1,
+  .flechanttp2,
+  .flechanttp3,
+  .flechanttp5,
+  .flechanttp6,
+  .flechanttp7,
+  .flechanttp8,
+  .flechanttp9,
+  .flechanttp10,
+  .flechanttp11,
+  .flechanttp12,
+  .flechanttp13,
+  .flechanttp14,
+  .flechanttp15,
+  .flechanttp16,
+  .flechanttp17,
+  .flechanttp18,
+  .flechanttp19,
+  .flechanttp20,
+  .flechanttp21,
+  .flechanttp22{
+    background-color:var(--resaltado);
+    position: absolute;
+    margin: 20px 0 50 0;
+    width: 2px;
+  }
+
+  .flechanttp1:after,
+  .flechanttp5:after,
+  .flechanttp7:after,
+  .flechanttp8:after,
+  .flechanttp9:after,
+  .flechanttp10:after,
+  .flechanttp12:after,
+  .flechanttp13:after,
+  .flechanttp15:after,
+  .flechanttp17:after,
+  .flechanttp18:after,
+  .flechanttp20:after,
+  .flechanttp22:after{
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: -3.5px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: var(--resaltado) transparent transparent transparent;
+    border-width: 10px 5px;
+  }
+
+  .flechanttp1{
+    height: 5px;
+    left:325px;
+    top:21px;
+}
+
+  .flechanttp2{
+    height: 5px;
+    left:325px;
+    top:105px;
+  }  
+  
+  .flechanttp5{
+    height: 5px;
+    left:325px;
+    top:130px;
+}
+
+.flechanttp7{
+    height: 5px;
+    left:325px;
+    top:165px;
+}
+
+.flechanttp8{
+    height: 55px;
+    left:530px;
+    top:68px;
+}
+
+.flechanttp8::after{
+    top:55px;
+}
+
+.flechanttp11{
+  height: 5px;
+  left:325px;
+  top:251px;
+}
+
+.flechanttp12{
+  height: 5px;
+  left:325px;
+  top:277px;
+}
+
+.flechanttp13{
+  height: 5px;
+  left:325px;
+  top:315px;
+}
+
+.flechanttp16{
+  height: 5px;
+  left:325px;
+  top:400px;
+}
+
+.flechanttp17{
+  height: 5px;
+  left:325px;
+  top:426px;
+}
+
+.flechanttp18{
+  height: 5px;
+  left:325px;
+  top:460px;
+}
+
+.flechanttp19{
+  height: 5px;
+  left:325px;
+  top:545px;
+}
+
+.flechanttp20{
+  height: 5px;
+  left:325px;
+  top:570px;
+}
+
+
+  /* FLECHAS LATERALES */
+  .flechanttp3{
+    width: 10px;
+    height: 2px;
+    left:521px;
+    top:67px;
+  }
+
+  .flechanttp6{
+    width: 10px;
+    height: 2px;
+    left:521px;
+    top:213px;
+  }
+
+  .flechanttp14{
+    width: 10px;
+    height: 2px;
+    left:520px;
+    top:363px;
+  }
+
+  
+
+.flechanttp10{
+  height: 2px;
+  width: 15px;
+  left:544px;
+  top:140px;
+}
+
+.flechanttp10:after{
+  top:-4px;
+  border-color: transparent transparent transparent var(--resaltado);
+  left: 15px;
+  border-width: 5px 10px;
+}
+
+.flechanttp15{
+  height: 2px;
+  width: 10px;
+  left:550px;
+  top:363px;
+}
+
+.flechanttp15:after{
+  top:-4px;
+  border-color: transparent transparent transparent var(--resaltado);
+  left: 10px;
+  border-width: 5px 10px;
+}
+
+.flechanttp22{
+  height: 2px;
+  width: 10px;
+  left:550px;
+  top:510px;
+}
+
+.flechanttp22:after{
+  top:-4px;
+  border-color: transparent transparent transparent var(--resaltado);
+  left: 10px;
+  border-width: 5px 10px;
+}
+
+.flechanttp21{
+  width: 10px;
+  height: 2px;
+  left:520px;
+  top:510px;
+}
+
+
+
+  /*  flechas mirando hacia arriba */
+
+  .flechanttp9{
+    height: 59px;
+    left:530px;
+    top:155px;
+}
+
+.flechanttp9:after{
+    top:-15px;
+    border-color: transparent transparent var(--resaltado) transparent;
+    border-width: 10px 5px;
+}
+
+
+
+  
+  

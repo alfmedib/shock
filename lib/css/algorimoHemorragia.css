@@ -1,0 +1,378 @@
+.contenedorHemo{
+    position: relative;
+    width: 70%;
+    background-color: yellow;
+}
+
+.directa,
+.vendaje,
+.sangradoControlado,
+.si, .no,
+.hospital,
+.sitioSangrado,
+.tronco,
+.extremidad,
+.hemostatico,
+.torniquete2{
+    position: absolute;
+    font-size: 12px;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color:var(--resaltado);
+    text-align: center;
+    padding: 5px;
+    background-color: var(--thir-color-rgba);
+    transition: all 2s;
+}
+
+.directa:hover,
+.vendaje:hover,
+.sangradoControlado:hover,
+.si:hover, .no:hover,
+.hospital:hover,
+.sitioSangrado:hover,
+.extremidad:hover,
+.tronco:hover,
+.hemostatico:hover,
+.torniquete2:hover{
+  background-color: var(--this-color-rgbaSolido);
+  z-index: 100;
+}
+
+.directa{
+  left: 300px;
+  top:5px;
+  height: 25px;  
+}
+
+.directa:hover{
+    transform: scale(5) translate(5%, 5%);    
+}
+
+.flecha_1,
+.flecha_2,
+.flecha_3,
+.flecha_5,
+.flecha_8,
+.flecha_9,
+.flecha_10,
+.flecha_11,
+.flecha_12,
+.flecha_13{
+    background-color:var(--resaltado);
+    position: absolute;
+    margin: 20px 0 50 0;
+    width: 2px;
+}
+
+.flecha_1:after,
+.flecha_2:after,
+.flecha_5:after,
+.flecha_8:after,
+.flecha_9:after{
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: -3.5px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: var(--resaltado) transparent transparent transparent;
+    border-width: 10px 5px;
+}
+
+.flecha_1{
+    height: 20px;
+    left:378px;
+    top:119px;
+}
+
+.vendaje{
+    left: 325px;
+    top:150px;
+    height: 25px;
+  }
+  
+  .vendaje:hover{
+      transform: scale(5) translate(5%, 5%);
+  }
+
+  .flecha_2{
+    height: 20px;
+    left:378px;
+    top:176px;
+  }
+
+.sangradoControlado{
+    background-color: var(--resaltadoTabla);
+    left: 320px;
+    top:207px;
+    height: 25px;
+  }
+  
+  .sangradoControlado:hover{
+      background-color: var(--resaltadoTabla);
+      transform: scale(5) translate(5%, 5%);
+  }
+
+  .flecha_3{
+    height: 15px;
+    left:378px;
+    top:233px;
+  }
+
+.si{
+    
+    left: 469px;
+    top:207px;
+    height: 25px;
+  }
+  
+  .si:hover{
+     
+      transform: scale(5) translate(5%, 5%);
+  }
+
+  .no{
+    
+    left: 365px;
+    top:249px;
+    height: 25px;
+  }
+  
+  .no:hover{
+     
+      transform: scale(5) translate(5%, 5%);
+  }
+
+  .hospital{
+    background-color: var(--encabezado);
+    left: 600px;
+    top:208px;
+    height: 25px;
+  }
+  
+  .hospital:hover{
+      background-color: var(--resaltadoTabla);
+      transform: scale(5) translate(5%, 5%);
+  }
+
+  .flecha_5{
+    height: 20px;
+    left:378px;
+    top:275px;
+  }
+
+.sitioSangrado{
+  background-color: var(--resaltadoTabla);
+  left: 290px;
+  top:305px;
+  height: 25px;
+}
+
+.sitioSangrado:hover{
+    background-color: var(--resaltadoTabla);
+    transform: scale(5) translate(5%, 5%);
+   
+}
+
+.flecha_6{
+  height: 35px;
+  width: 2px;
+  left:259px;
+  top:318px;
+} 
+
+.flecha_7{
+  height: 35px;
+  width: 2px;
+  left:513px;
+  top:318px;
+} 
+
+.flecha_6:before{
+  width: 30px;
+} 
+
+.flecha_7:before{
+  width: 30px;
+  left:-30px;
+} 
+.flecha_7:after{
+  top: 35px;
+  left: -3.5px;
+  
+}
+
+.extremidad{
+ 
+  left: 225px;
+  top:362px;
+  height: 25px;
+}
+
+.extremidad:hover{
+  
+    transform: scale(5) translate(5%, 5%);
+}
+
+.tronco{
+ 
+  left: 493px;
+  top:362px;
+  height: 25px;
+}
+
+.tronco:hover{
+  
+    transform: scale(5) translate(5%, 5%);
+}
+
+.hemostatico{
+ 
+  left: 455px;
+  top:419px;
+  height: 45px;
+}
+
+.hemostatico:hover{
+  
+    transform: scale(5) translate(5%, 5%);
+}
+
+.torniquete2  {
+ 
+  left: 225px;
+  top:419px;
+  height: 25px;
+}
+
+.torniquete2:hover{
+  
+    transform: scale(5) translate(5%, 5%);
+}
+
+.flecha_8{
+  height: 20px;
+  left:260px;
+  top:388px;
+}
+
+.flecha_9{
+  height: 20px;
+  left:515px;
+  top:388px;
+}
+
+.flecha_10{
+  height: 65px;
+  left:260px;
+  top:445px;
+}
+
+.flecha_11{
+  height: 23px;
+  left:516px;
+  top:465px;
+}
+
+ 
+  /* flechas y lineas horizontales */
+
+  .rayahorizontal1,
+  .flecha_4,
+  .flecha_12,
+  .flecha_13 {
+
+    background-color:var(--resaltado);
+    position: absolute;
+    margin: 20px 0 50 0;
+   
+  }
+
+  .flecha_4:after{
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: 100px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent transparent transparent var(--resaltado);
+    border-width: 5px 10px;
+  }
+
+  .rayahorizontal1{
+    height: 2px;
+    width: 15px;
+    left:453px;
+    top:219px;
+  }
+
+  .flecha_4{
+    height: 2px;
+    width: 100px;
+    left:491px;
+    top:219px;
+  }
+
+  .flecha_12{
+    height: 2px;
+    width: 377px;
+    left:260px;
+    top:510px;
+  }
+
+  .flecha_13{
+    height: 2px;
+    width: 100px;
+    left:516px;
+    top:488px;
+  }
+
+ 
+
+  /* FIN  DE flechas y lineas horizontales  */
+
+  /* Flecha cabeza hacia arriba */
+.flecha_14,
+.flecha_15{
+  
+  background-color:var(--resaltado);
+  position: absolute;
+  margin: 20px 0 50 0;
+  transition: all 3s;
+  
+}
+
+/*punta de la flecha*/
+.flecha_14:after,
+.flecha_15:after{
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent transparent var(--resaltado) transparent;
+  border-width: 6px 6px 10px 6px;
+}
+
+.flecha_14{
+  height: 252px; /*Largo de la flecha*/
+  width: 2px;
+  left:615px;
+  top:238px;
+}
+
+.flecha_15{
+  height: 272px; /*Largo de la flecha*/
+  width: 2px;
+  left:635px;
+  top:238px;
+}
+
+
+/* Fin flecha vertical */
+

@@ -1,0 +1,1590 @@
+.flecha,
+.flecha_7{
+  background-color:var(--resaltado);
+  height: 35px;
+  width: 2px;
+  left:241px;
+  top:12px;
+  position: absolute;
+  margin: 20px 0 50 0;
+  transition: all 3s;
+}
+
+.flecha:after,
+.flecha_7::after{
+  content: '';
+  position: absolute;
+  top: 35px;
+  left: -3.5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: var(--resaltado) transparent transparent transparent;
+  border-width: 10px 5px;
+}
+
+.flecha:before,
+.flecha_7:before{
+  content:'';
+  position: absolute;
+  background-color:var(--resaltado);
+  left:-50px;
+  width: 50px;
+  height:2px;  
+}
+
+/* flecha izquierda */
+
+.flechaIzquierda,
+.flecha_6{
+  
+  background-color:var(--resaltado);
+  height: 35px;
+  width: 2px;
+  left:0px;
+  top:12px;
+  position: absolute;
+  margin: 20px 0 50 0;
+  transition: all 3s;
+}
+
+.flechaIzquierda:after,
+.flecha_6:after{
+  content: '';
+  position: absolute;
+  top: 35px;
+  left: -3.5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: var(--resaltado) transparent transparent transparent;
+  border-width: 10px 5px;
+}
+
+.flechaIzquierda:before,
+.flecha_6:before{
+  content:'';
+  position: absolute;
+  background-color:var(--resaltado);
+  left:0px;
+  width: 50px;
+  height:2px;  
+}
+
+.hemorragiaIncontrolada{
+  position: absolute;
+  left: 50px;
+  font-size: 12px;
+  height: 25px;
+  border-radius: 5px;
+  border: solid 1px;
+  border-color:var(--resaltado);
+  text-align: center;
+  padding: 5px;
+  background-color: var(--thir-color-rgba);
+  transition: all 2s;
+}
+
+.hemorragiaIncontrolada:hover{
+  background-color: var(--this-color-rgbaSolido);
+  z-index: 10;
+  transform: scale(5) translate(30%);
+}
+
+.claseI{
+
+  position: absolute;
+  left: -50px;
+  top:58px;
+  font-size: 12px;
+  height: 25px;
+  border-radius: 5px;
+  border: solid 1px;
+  border-color:var(--resaltado);
+  text-align: center;
+  padding: 5px;
+  background-color: var(--thir-color-rgba);
+  transition: all 2s;
+
+}
+
+.claseI:hover{
+  background-color: var(--this-color-rgbaSolido);
+  z-index: 10;
+  transform: scale(5) translate(50%);
+}
+
+.claseIII{
+
+  position: absolute;
+  left: 190px;
+  top:58px;
+  font-size: 12px;
+  height: 25px;
+  border-radius: 5px;
+  border: solid 1px;
+  border-color:var(--resaltado);
+  text-align: center;
+  padding: 5px;
+  background-color: var(--thir-color-rgba);
+  transition: all 2s;
+
+}
+
+.claseIII:hover{
+  background-color: var(--this-color-rgbaSolido);
+  z-index: 10;
+  transform: scale(5) translate(30%);
+}
+
+.contenedor{
+  position: relative;
+  width: 50%;
+  background-color: yellow;
+}
+
+.diamante{
+  background-color:var(--resaltado);
+  height: 25px;
+  width: 2px;
+  left:241px;
+  top:85px;
+  position: absolute;
+  margin: 20px 0 50 0;
+  transition: all 3s;
+}
+
+
+.diamante:after{
+  content: '';
+  position: absolute;
+  top: 25px;
+  left: -4px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: var(--resaltado) transparent transparent transparent;
+  border-width: 10px 5px;
+}
+
+.diamanteIzq{
+  background-color:var(--resaltado);
+  height: 25px;
+  width: 2px;
+  left:0px;
+  top:85px;
+  position: absolute;
+  margin: 20px 0 50 0;
+  transition: all 3s;
+}
+
+.diamanteIzq:after{
+  content: '';
+  position: absolute;
+  top: 25px;
+  left: -4px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: var(--resaltado) transparent transparent transparent;
+  border-width: 10px 5px;
+}
+
+.respuestaClaseI{
+
+  position: absolute;
+  left: -60px;
+  top:120px;
+  font-size: 12px;
+  height: 25px;
+  border-radius: 5px;
+  border: solid 1px;
+  border-color:var(--resaltado);
+  text-align: center;
+  padding: 5px;
+  background-color: var(--thir-color-rgba);
+  transition: all 2s;
+}
+
+.respuestaClaseI:hover{
+  background-color: var(--this-color-rgbaSolido);
+  z-index: 10;
+  transform: scale(5) translate(50%);
+}
+
+.respuestaClaseIII p,
+.hemostatico p{
+  margin: 0;
+  padding: 0;
+
+}
+
+.respuestaClaseIII{
+
+  position: absolute;
+  left: 180px;
+  top:120px;
+  font-size: 12px;
+  height: 55px;
+  border-radius: 5px;
+  border: solid 1px;
+  border-color:var(--resaltado);
+  text-align: center;
+  padding: 5px;
+  background-color: var(--thir-color-rgba);
+  transition: all 2s;
+}
+
+.respuestaClaseIII:hover{
+  background-color: var(--this-color-rgbaSolido);
+  z-index: 10;
+  transform: scale(5) translate(30%);
+}
+
+.otro{
+  background-color:var(--thir-color-rgba);
+  width: 5px;
+  height:5px;
+  transition: all 3s;
+}
+
+
+/* HEMORRAGÍA CONTROLADA */
+
+.flechaControlada{
+  background-color:var(--resaltado);
+  height: 35px;
+  width: 2px;
+  left:241px;
+  top:12px;
+  position: absolute;
+  margin: 20px 0 50 0;
+  transition: all 3s;
+}
+
+.flechaControlada:after{
+  content: '';
+  position: absolute;
+  top: 35px;
+  left: -3.5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: var(--resaltado) transparent transparent transparent;
+  border-width: 10px 5px;
+}
+
+.flechaControlada:before{
+  content:'';
+  position: absolute;
+  background-color:var(--resaltado);
+  left:-50px;
+  width: 50px;
+  height:2px;  
+}
+
+/* flecha izquierda */
+
+.flechaIzquierdaControlada{
+  
+  background-color:var(--resaltado);
+  height: 35px;
+  width: 2px;
+  left:0px;
+  top:12px;
+  position: absolute;
+  margin: 20px 0 50 0;
+  transition: all 3s;
+}
+
+.flechaIzquierdaControlada:after{
+  content: '';
+  position: absolute;
+  top: 35px;
+  left: -3.5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: var(--resaltado) transparent transparent transparent;
+  border-width: 10px 5px;
+}
+
+.flechaIzquierdaControlada:before{
+  content:'';
+  position: absolute;
+  background-color:var(--resaltado);
+  left:0px;
+  width: 50px;
+  height:2px;  
+}
+
+.hemorragiaControlada{
+  position: absolute;
+  left: 53px;
+  font-size: 12px;
+  height: 25px;
+  border-radius: 5px;
+  border: solid 1px;
+  border-color:var(--resaltado);
+  text-align: center;
+  padding: 5px;
+  background-color: var(--thir-color-rgba);
+  transition: all 2s;
+}
+
+.hemorragiaControlada:hover{
+  background-color: var(--this-color-rgbaSolido);
+  z-index: 10;
+  transform: scale(5) translate(-30%,10%);
+}
+
+.claseIControlada{
+
+  position: absolute;
+  left: -50px;
+  top:58px;
+  font-size: 12px;
+  height: 25px;
+  border-radius: 5px;
+  border: solid 1px;
+  border-color:var(--resaltado);
+  text-align: center;
+  padding: 5px;
+  background-color: var(--thir-color-rgba);
+  transition: all 2s;
+
+}
+
+.claseIControlada:hover{
+  background-color: var(--this-color-rgbaSolido);
+  z-index: 10;
+  transform: scale(5) translate(-30%);
+}
+
+.claseIIIControlada{
+
+  position: absolute;
+  left: 190px;
+  top:58px;
+  font-size: 12px;
+  height: 25px;
+  border-radius: 5px;
+  border: solid 1px;
+  border-color:var(--resaltado);
+  text-align: center;
+  padding: 5px;
+  background-color: var(--thir-color-rgba);
+  transition: all 2s;
+
+}
+
+.claseIIIControlada:hover{
+  background-color: var(--this-color-rgbaSolido);
+  z-index: 10;
+  transform: scale(5) translate(-30%);
+}
+
+
+.respuestaClaseIControlada{
+
+  position: absolute;
+  left: -60px;
+  top:120px;
+  font-size: 12px;
+  height: 25px;
+  border-radius: 5px;
+  border: solid 1px;
+  border-color:var(--resaltado);
+  text-align: center;
+  padding: 5px;
+  background-color: var(--thir-color-rgba);
+  transition: all 2s;
+}
+
+.respuestaClaseIControlada:hover{
+  background-color: var(--this-color-rgbaSolido);
+  z-index: 10;
+  transform: scale(5) translate(-30%);
+}
+
+.respuestaClaseIIIControlada {
+
+  position: absolute;
+  left: 180px;
+  top:120px;
+  font-size: 12px;
+  height: 55px;
+  border-radius: 5px;
+  border: solid 1px;
+  border-color:var(--resaltado);
+  text-align: center;
+  padding: 5px;
+  background-color: var(--thir-color-rgba);
+  transition: all 2s;
+}
+
+.respuestaClaseIIIControlada p{
+  margin: 0;
+  padding: 0;
+
+}
+
+.respuestaClaseIIIControlada:hover{
+  background-color: var(--this-color-rgbaSolido);
+  z-index: 10;
+  transform: scale(5) translate(-30%);
+}
+
+/*  FLECHAS SEGUNDO NIVEL  */
+
+.flechaControladaIII{
+  background-color:var(--resaltado);
+  height: 35px;
+  width: 2px;
+  left:355px;
+  top:150px;
+  position: absolute;
+  margin: 20px 0 50 0;
+  transition: all 3s;
+}
+
+.flechaControladaIII:after{
+  content: '';
+  position: absolute;
+  top: 35px;
+  left: -3.5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: var(--resaltado) transparent transparent transparent;
+  border-width: 10px 5px;
+}
+
+.flechaControladaIII:before{
+  content:'';
+  position: absolute;
+  background-color:var(--resaltado);
+  left:-50px;
+  width: 50px;
+  height:2px;  
+}
+
+/* flecha izquierda */
+
+.flechaIzquierdaControladaIII{
+  
+  background-color:var(--resaltado);
+  height: 35px;
+  width: 2px;
+  left:130px;
+  top:150px;
+  position: absolute;
+  margin: 20px 0 50 0;
+  transition: all 3s;
+}
+
+.flechaIzquierdaControladaIII:after{
+  content: '';
+  position: absolute;
+  top: 35px;
+  left: -3.5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: var(--resaltado) transparent transparent transparent;
+  border-width: 10px 5px;
+}
+
+.flechaIzquierdaControladaIII:before{
+  content:'';
+  position: absolute;
+  background-color:var(--resaltado);
+  left:0px;
+  width: 50px;
+  height:2px;  
+}
+
+.respuestaRapida{
+
+  position: absolute;
+  left: 85px;
+  top:195px;
+  font-size: 12px;
+  height: 25px;
+  border-radius: 5px;
+  border: solid 1px;
+  border-color:var(--resaltado);
+  text-align: center;
+  padding: 5px;
+  background-color: var(--thir-color-rgba);
+  transition: all 2s;
+
+}
+
+.respuestaRapida:hover{
+  background-color: var(--this-color-rgbaSolido);
+  z-index: 10;
+  transform: scale(5) translate(-30%);
+}
+
+.flechaUnicaResRapida{
+  background-color:var(--resaltado);
+  height: 25px;
+  width: 2px;
+  left:130px;
+  top:222px;
+  position: absolute;
+  margin: 20px 0 50 0;
+  transition: all 3s;
+}
+
+
+.flechaUnicaResRapida:after{
+  content: '';
+  position: absolute;
+  top: 25px;
+  left: -4px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: var(--resaltado) transparent transparent transparent;
+  border-width: 10px 5px;
+}
+
+
+.titularIzquierdo{
+
+  position: absolute;
+  left: 85px;
+  top:258px;
+  font-size: 12px;
+  height: 25px;
+  border-radius: 5px;
+  border: solid 1px;
+  border-color:var(--resaltado);
+  text-align: center;
+  padding: 5px;
+  background-color: var(--thir-color-rgba);
+  transition: all 2s;
+
+}
+
+.titularIzquierdo:hover{
+  background-color: var(--this-color-rgbaSolido);
+  z-index: 10;
+  transform: scale(5) translate(-30%);
+}
+
+
+.flechaMantener{
+  background-color:var(--resaltado);
+  height: 25px;
+  width: 2px;
+  left:130px;
+  top:284px;
+  position: absolute;
+  margin: 20px 0 50 0;
+  transition: all 3s;
+}
+
+
+.flechaMantener:after{
+  content: '';
+  position: absolute;
+  top: 25px;
+  left: -4px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: var(--resaltado) transparent transparent transparent;
+  border-width: 10px 5px;
+}
+
+
+.mantener{
+
+  position: absolute;
+  left: 85px;
+  top:319px;
+  font-size: 12px;
+  height: 40px;
+  border-radius: 5px;
+  border: solid 1px;
+  border-color:var(--resaltado);
+  text-align: center;
+  padding: 5px;
+  background-color: var(--thir-color-rgba);
+  transition: all 2s;
+
+}
+.mantener p{
+  margin: 0;
+  padding: 0;
+}
+
+.mantener:hover{
+  background-color: var(--this-color-rgbaSolido);
+  z-index: 10;
+  transform: scale(5) translate(-35%,-50%);
+}
+
+.temporal{
+
+  position: absolute;
+  left: 305px;
+  top:195px;
+  font-size: 12px;
+  height: 40px;
+  border-radius: 5px;
+  border: solid 1px;
+  border-color:var(--resaltado);
+  text-align: center;
+  padding: 5px;
+  background-color: var(--thir-color-rgba);
+  transition: all 2s;
+
+}
+.temporal p{
+  margin: 0;
+  padding: 0;
+}
+
+.temporal:hover{
+  background-color: var(--this-color-rgbaSolido);
+  z-index: 10;
+  transform: scale(5) translate(-35%);
+}
+
+.flechaTemporal{
+  background-color:var(--resaltado);
+  height: 25px;
+  width: 2px;
+  left:356px;
+  top:236px;
+  position: absolute;
+  margin: 20px 0 50 0;
+  transition: all 3s;
+}
+
+
+.flechaTemporal:after{
+  content: '';
+  position: absolute;
+  top: 25px;
+  left: -4px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: var(--resaltado) transparent transparent transparent;
+  border-width: 10px 5px;
+}
+
+.titularTemporal{
+
+  position: absolute;
+  left: 309px;
+  top:270px;
+  font-size: 12px;
+  height: 25px;
+  border-radius: 5px;
+  border: solid 1px;
+  border-color:var(--resaltado);
+  text-align: center;
+  padding: 5px;
+  background-color: var(--thir-color-rgba);
+  transition: all 2s;
+
+}
+
+.titularTemporal:hover{
+  background-color: var(--this-color-rgbaSolido);
+  z-index: 10;
+  transform: scale(5) translate(-35%);
+}
+
+.flechaTemporalinf{
+  background-color:var(--resaltado);
+  height: 25px;
+  width: 2px;
+  left:356px;
+  top:296px;
+  position: absolute;
+  margin: 20px 0 50 0;
+  transition: all 3s;
+}
+
+
+.flechaTemporalinf:after{
+  content: '';
+  position: absolute;
+  top: 25px;
+  left: -4px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: var(--resaltado) transparent transparent transparent;
+  border-width: 10px 5px;
+}
+
+
+
+.respuestaTemporal{
+
+  position: absolute;
+  left: 275px;
+  top:330px;
+  font-size: 12px;
+  height: 40px;
+  border-radius: 5px;
+  border: solid 1px;
+  border-color:var(--resaltado);
+  text-align: center;
+  padding: 5px;
+  background-color: var(--thir-color-rgba);
+  transition: all 2s;
+
+}
+
+.respuestaTemporal:hover{
+  background-color: var(--this-color-rgbaSolido);
+  z-index: 10;
+  transform: scale(5) translate(-50%, -60%);
+}
+
+.respuestaTemporal p{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.contenedorControlada{
+  position: relative;
+  width: 50%;
+  background-color: yellow;
+  float: right;
+}
+
+.sospechaSNC{
+
+  position: absolute;
+  left: 60px;
+  top:235px;
+  font-size: 12px;
+  height: 25px;
+  border-radius: 5px;
+  border: solid 1px;
+  border-color:var(--resaltado);
+  text-align: center;
+  padding: 5px;
+  background-color: var(--thir-color-rgba);
+  transition: all 2s;
+
+}
+
+.sospechaSNC:hover{
+  background-color: var(--this-color-rgbaSolido);
+  z-index: 10;
+  transform: scale(5) translate(50%, 10%);
+}
+
+.flechaSospechaSNC{
+  background-color:var(--resaltado);
+  height: 25px;
+  width: 2px;
+  left:120px;
+  top:261px;
+  position: absolute;
+  margin: 20px 0 50 0;
+  transition: all 3s;
+}
+
+
+.flechaSospechaSNC:after{
+  content: '';
+  position: absolute;
+  top: 25px;
+  left: -4px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: var(--resaltado) transparent transparent transparent;
+  border-width: 10px 5px;
+}
+
+.titularSospechaSNC{
+
+  position: absolute;
+  left: 73px;
+  top:295px;
+  font-size: 12px;
+  height: 25px;
+  border-radius: 5px;
+  border: solid 1px;
+  border-color:var(--resaltado);
+  text-align: center;
+  padding: 5px;
+  background-color: var(--thir-color-rgba);
+  transition: all 2s;
+
+}
+
+.titularSospechaSNC:hover{
+  background-color: var(--this-color-rgbaSolido);
+  z-index: 10;
+  transform: scale(5) translate(50%, 10%);
+}
+
+.flechaSospechaSNC2{
+  background-color:var(--resaltado);
+  height: 25px;
+  width: 2px;
+  left:120px;
+  top:321px;
+  position: absolute;
+  margin: 20px 0 50 0;
+  transition: all 3s;
+}
+
+
+.flechaSospechaSNC2:after{
+  content: '';
+  position: absolute;
+  top: 25px;
+  left: -4px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: var(--resaltado) transparent transparent transparent;
+  border-width: 10px 5px;
+}
+
+.mantenerSospechaSNC{
+
+  position: absolute;
+  left: 35px;
+  top:355px;
+  font-size: 12px;
+  height: 55px;
+  border-radius: 5px;
+  border: solid 1px;
+  border-color:var(--resaltado);
+  text-align: center;
+  padding: 5px;
+  background-color: var(--thir-color-rgba);
+  transition: all 2s;
+
+}
+
+.mantenerSospechaSNC:hover{
+  background-color: var(--this-color-rgbaSolido);
+  z-index: 10;
+  transform: scale(5) translate(30%, -20%);
+}
+
+.mantenerSospechaSNC p{
+  margin: 0;
+  padding: 0;
+}
+
+.contenedorShockSnc{
+  position: relative;
+  width: 50%;
+  background-color: yellow;
+  
+}
+
+/* CONTROL DE HEMORRAGÍA EXTERNA */
+
+.hemorragiaExterna,
+.si1,
+.no1,
+.presionDirecta,
+.controlada,
+.si2,
+.no2,
+.torniquete,
+.perfusion,
+.evidenciaShock,
+.si3, .no3,
+.oxigeno,
+.revisionPrimaria,
+.restriccionVertebral,
+.inmovilizarFracturas,
+.calor,
+.revalorar,
+.transporteCerca,
+.transporte,
+.terapiaSi,
+.terapiaNo{
+
+  position: absolute;
+  font-size: 12px;
+  border-radius: 5px;
+  border: solid 1px;
+  border-color:var(--resaltado);
+  text-align: center;
+  padding: 5px;
+  background-color: var(--thir-color-rgba);
+  transition: all 2s;
+
+}
+
+.hemorragiaExterna:hover,
+.si1:hover,
+.no1:hover,
+.presionDirecta:hover,
+.controlada:hover,
+.si2:hover,
+.no2:hover,
+.torniquete:hover,
+.perfusion:hover,
+.evidenciaShock:hover,
+.si3:hover, .no3:hover,
+.oxigeno:hover,
+.revisionPrimaria:hover,
+.restriccionVertebral:hover,
+.inmovilizarFracturas:hover,
+.calor:hover,
+.revalorar:hover,
+.transporteCerca:hover,
+.transporte:hover,
+.terapiaSi:hover,
+.terapiaNo:hover{
+  background-color: var(--this-color-rgbaSolido);
+  z-index: 10;
+}
+
+.hemorragiaExterna{
+  left: 300px;
+  top:5px;
+  height: 25px;
+}
+
+.hemorragiaExterna:hover{
+  transform: scale(5) translate(5%, 5%);
+}
+
+.flechaDercha,
+.flechaDercha1,
+.flechaDercha2{
+  background-color:var(--resaltado);
+  width: 2px;
+  position: absolute;
+  margin: 20px 0 50 0;
+  transition: all 3s;
+}
+
+.flechaDercha:after,
+.flechaDercha1::after,
+.flechaDercha2::after{
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: -3.5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: var(--resaltado) transparent transparent transparent;
+  border-width: 10px 5px;
+}
+
+.flechaDercha:before,
+.flechaDercha1::before,
+.flechaDercha2::before{
+  content:'';
+  position: absolute;
+  background-color:var(--resaltado);
+}
+
+.flechaDercha:before{
+  width: 150px;
+  height:2px;  
+  left:-150px;
+}
+
+.flechaDercha{
+
+  height: 20px;
+  left:577px;
+  top:15px;
+}
+
+/* flecha izquierda */
+
+.flechaIzq, .flecha1,
+.flecha2,
+.flechaIzq1,
+.flecha3,
+.flecha4,
+.flecha8,
+.flechaIzq2,
+.flecha9,
+.flecha10,
+.flecha11,
+.flecha12,
+.flecha13,
+.flecha14,
+.flecha15,
+.flecha16,
+.flecha17,
+.flecha18{
+  
+  background-color:var(--resaltado);
+  position: absolute;
+  margin: 20px 0 50 0;
+  width: 2px;
+  transition: all 3s;
+}
+
+
+.flechaIzq:after,
+.flecha1:after,
+.flecha2:after,
+.flechaIzq1:after,
+.flecha3:after,
+.flecha4:after,
+.flecha8:after,
+.flechaIzq2::after,
+.flecha9::after,
+.flecha10::after,
+.flecha11:after,
+.flecha12:after,
+.flecha13::after,
+.flecha14::after,
+.flecha15:after,
+.flecha16::after,
+.flecha17::after,
+.flecha18::after{
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: -3.5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: var(--resaltado) transparent transparent transparent;
+  border-width: 10px 5px;
+}
+
+.flechaIzq:before,
+.flechaIzq1:before,
+.flechaIzq2:before{
+  content:'';
+  position: absolute;
+  background-color:var(--resaltado);
+  left:0px; 
+}
+
+.flechaIzq{
+  height: 20px;
+  left:149px;
+  top:15px;
+}
+
+.flechaIzq:before{
+  width: 150px;
+  height:2px;  
+}
+
+
+
+.contendorHemorragiaExterna{
+  position: relative;
+  width: 70%;
+  background-color: yellow;
+  
+}
+
+.si1{
+  left: 569px;
+  top:45px;
+  height: 25px;
+}
+
+.si1:hover{
+  transform: scale(5) translate(5%, 5%);
+}
+
+.no1{
+  left: 137px;
+  top:45px;
+  height: 25px;
+}
+
+.no1:hover{
+  transform: scale(5) translate(5%, 5%);
+}
+
+.flecha1{
+  height: 20px;
+  left:149px;
+  top:71px;
+}
+
+.presionDirecta{
+  left: 90px;
+  top:101px;
+  height: 25px;
+}
+
+.presionDirecta:hover{
+  transform: scale(5) translate(5%, 5%);
+}
+
+.flecha2{
+  height: 20px;
+  left:149px;
+  top:127px;
+}
+
+.controlada{
+  left: 110px;
+  top:155px;
+  height: 25px;
+}
+
+.controlada:hover{
+  transform: scale(5) translate(5%, 5%);
+}
+
+
+.flechaDercha1{
+
+  height: 20px;
+  left:241px;
+  top:168px;
+
+}
+
+.flechaDercha1:before{
+  width: 50px;
+  height:2px;  
+  left:-50px;
+}
+
+.flechaIzq1{
+  height: 20px;
+  left:59px;
+  top:168px;
+}
+
+.flechaIzq1:before{
+  width: 50px;
+  height:2px;  
+}
+
+.si2{
+  left: 233px;
+  top:198px;
+  height: 25px;
+}
+
+.si2:hover{
+  transform: scale(5) translate(5%, 5%);
+}
+
+.no2{
+  left: 45px;
+  top:198px;
+  height: 25px;
+}
+
+.no2:hover{
+  transform: scale(5) translate(5%, 5%);
+}
+
+.flecha3{
+  height: 20px;
+  left:60px;
+  top:225px;
+}
+
+.torniquete{
+  left: 28px;
+  top:255px;
+  height: 25px;
+}
+
+.torniquete:hover{
+  transform: scale(5) translate(30%, 5%);
+}
+
+.flecha4{
+  height: 20px;
+  left:579px;
+  top:71px;
+}
+
+.perfusion{
+  left: 535px;
+  top:100px;
+  height: 25px;
+}
+
+.perfusion:hover{
+  transform: scale(5) translate(5%, 5%);
+}
+
+/* Flechas horizontales y otros */
+
+.flecha5,
+.flecha6,
+.flecha7{
+  
+  background-color:var(--resaltado);
+  position: absolute;
+  margin: 20px 0 50 0;
+  
+}
+
+.flecha5:after,
+.flecha7:after{
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-color: transparent transparent transparent var(--resaltado);
+  border-width: 6px 10px;
+}
+
+.flecha5:before,
+.flecha6:before,
+.flecha7:before{
+  content:'';
+  position: absolute;
+  background-color: var(--resaltado);
+  left:0px;
+  width: 225px;
+  height:2px;  
+}
+
+.flecha5{
+  height: 155px;
+  width: 2px;
+  left:300px;
+  top:113px;
+}
+
+.flecha5:after{
+  top: -4.5px;
+  left: 225px;
+  width: 0;
+  height: 0;
+}
+
+
+.flecha6{
+  height: 0px;
+  width: 2px;
+  left:98px;
+  top:266px;
+}
+
+.flecha6:before{
+   width: 204px;
+}
+
+.flecha7{
+  height: 0px;
+  width: 2px;
+  left:255px;
+  top:210px;
+}
+
+.flecha7:after{
+  top: -4.5px;
+  left: 35px;
+  width: 0;
+  height: 0;
+}
+
+.flecha7:before{
+  width: 35px;
+}
+
+/*  Fin de flechas horizontales */
+
+.flecha8{
+  height: 20px;
+  width: 2px;
+  left:580px;
+  top:126px;
+}
+
+.evidenciaShock{
+  left: 525px;
+  top:156px;
+  height: 25px;
+}
+
+.evidenciaShock:hover{
+  transform: scale(5) translate(-5%, -5%);
+}
+
+.flechaIzq2{
+  height: 20px;
+  left:475px;
+  top:168px;
+}
+
+.flechaIzq2:before{
+  width: 50px;
+  height:2px;  
+}
+
+.flechaDercha2{
+
+  height: 20px;
+  left:698px;
+  top:168px;
+
+}
+
+.flechaDercha2:before{
+  width: 50px;
+  height:2px;  
+  left:-50px;
+}
+
+.si3{
+  left: 467px;
+  top:198px;
+  height: 25px;
+}
+
+.si3:hover{
+  transform: scale(5) translate(5%, 5%);
+}
+
+.no3{
+  left: 686px;
+  top:198px;
+  height: 25px;
+}
+
+.no3:hover{
+  transform: scale(5) translate(5%, 5%);
+}
+
+.flecha9{
+  height: 20px;
+  width: 2px;
+  left:477px;
+  top:224px;
+}
+
+.flecha10{
+  height: 20px;
+  width: 2px;
+  left:699px;
+  top:224px;
+}
+
+.oxigeno{
+  left: 415px;
+  top:254px;
+  height: 45px;
+}
+
+.oxigeno p,
+.revisionPrimaria p,
+.restriccionVertebral p,
+.transporteCerca p{
+  margin: 0;
+  padding: 0;
+}
+
+.oxigeno:hover{
+  transform: scale(5) translate(5%, 5%);
+}
+
+.revisionPrimaria{
+  left: 650px;
+  top:254px;
+  width: 110px;
+  height: 45px;
+}
+
+.revisionPrimaria:hover{
+  transform: scale(5) translate(-5%, -5%);
+}
+
+.flecha11{
+  height: 20px;
+  width: 2px;
+  left:477px;
+  top:300px;
+}
+
+.flecha12{
+  height: 20px;
+  width: 2px;
+  left:699px;
+  top:300px;
+}
+
+.restriccionVertebral{
+  left: 408px;
+  top:331px;
+  height: 45px;
+}
+.restriccionVertebral:hover{
+  transform: scale(5) translate(5%, 5%);
+}
+
+.inmovilizarFracturas{
+  left: 650px;
+  top:331px;
+  width: 120px;
+  height: 25px;
+}
+
+.inmovilizarFracturas:hover{
+  transform: scale(5) translate(-5%, -5%);
+}
+
+.flecha13{
+  height: 20px;
+  width: 2px;
+  left:477px;
+  top:378px;
+}
+
+.flecha14{
+  height: 20px;
+  width: 2px;
+  left:699px;
+  top:357px;
+}
+
+.calor{
+  left: 413px;
+  top:408px;
+  height: 25px;
+}
+.calor:hover{
+  transform: scale(5) translate(5%, 5%);
+}
+
+.revalorar{
+  left: 630px;
+  top:388px;
+  width: 160px;
+  height: 25px;
+}
+
+.revalorar:hover{
+  transform: scale(5) translate(-15%, -15%);
+}
+
+.flecha15{
+  height: 20px;
+  width: 2px;
+  left:477px;
+  top:434px;
+}
+
+.flecha16{
+  height: 20px;
+  width: 2px;
+  left:699px;
+  top:414px;
+}
+
+.transporteCerca{
+  left: 400px;
+  top:464px;
+  height: 45px;
+}
+.transporteCerca:hover{
+  transform: scale(5) translate(-5%, -15%);
+}
+
+.transporte{
+  left: 630px;
+  top:444px;
+  width: 160px;
+  height: 25px;
+}
+
+.transporte:hover{
+  transform: scale(5) translate(-15%, -15%);
+}
+
+.flecha17{
+  height: 20px;
+  width: 2px;
+  left:477px;
+  top:509px;
+}
+
+.flecha18{
+  height: 20px;
+  width: 2px;
+  left:699px;
+  top:470px;
+}
+
+.terapiaSi{
+  left: 404px;
+  top:539px;
+  height: 25px;
+}
+.terapiaSi:hover{
+  transform: scale(5) translate(-5%, -30%);
+}
+
+.terapiaNo{
+  left: 630px;
+  top:500px;
+  width: 160px;
+  height: 25px;
+}
+
+.terapiaNo:hover{
+  transform: scale(5) translate(-15%, -30%);
+}
+
+
+
+
+
+
+/* 000000000000000000000000000000000000000000000 ----- PRUEBAAAA ---- 000000000000000000000000000000000000000000000000000000 */
+
+
+
+/* flecha lateral derecha */
+
+.flechaIzquierdayyyyyyy{
+  
+  background-color:blue;
+  height: 35px;
+  width: 2px;
+  left:130px;
+  top:150px;
+  position: absolute;
+  margin: 20px 0 50 0;
+  transition: all 3s;
+}
+
+.flechaIzquierdayyyyyyy:after{
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 45px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent transparent transparent red;
+  border-width: 6px 10px;
+}
+
+.flechaIzquierdayyyyyyy:before{
+  content:'';
+  position: absolute;
+  background-color:red;
+  left:0px;
+  width: 50px;
+  height:2px;  
+}
